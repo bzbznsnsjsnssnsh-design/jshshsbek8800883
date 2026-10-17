@@ -1,0 +1,690 @@
+<!DOCTYPE html><html lang="en-US" class="react" data-version-tag="serp_20261016_195402_ET" data-version-sha="d72d710439541dc508cd354c77430151d3acd1a8" data-theme="light" data-os="windows" style="color-scheme: light; --sds-color-palette-black: #000000; --sds-color-palette-white: #FFFFFF; --sds-color-palette-transparent: transparent; --sds-color-palette-gray-100: #111111; --sds-color-palette-gray-95: #161616; --sds-color-palette-gray-90: #222222; --sds-color-palette-gray-85: #333333; --sds-color-palette-gray-80: #444444; --sds-color-palette-gray-70: #666666; --sds-color-palette-gray-60: #888888; --sds-color-palette-gray-50: #aaaaaa; --sds-color-palette-gray-40: #cccccc; --sds-color-palette-gray-30: #dddddd; --sds-color-palette-gray-25: #e8e8e8; --sds-color-palette-gray-20: #eeeeee; --sds-color-palette-gray-0: #fafafa; --sds-color-palette-red-80: #77230C; --sds-color-palette-red-70: #9A3216; --sds-color-palette-red-60: #BC4423; --sds-color-palette-red-50: #DE5833; --sds-color-palette-red-40: #E46F4F; --sds-color-palette-red-30: #EB876C; --sds-color-palette-red-20: #F2A18A; --sds-color-palette-red-10: #F8BBAA; --sds-color-palette-red-alert-70: #C10D25; --sds-color-palette-red-alert-60: #CF0E28; --sds-color-palette-red-alert-50: #EB102D; --sds-color-palette-red-alert-40: #D1454A; --sds-color-palette-red-alert-30: #E04A4F; --sds-color-palette-red-alert-20: #FF545A; --sds-color-palette-blue-80: #14307e; --sds-color-palette-blue-70: #1e42a4; --sds-color-palette-blue-60: #2b55ca; --sds-color-palette-blue-50: #3969ef; --sds-color-palette-blue-40: #557ff3; --sds-color-palette-blue-30: #7295f6; --sds-color-palette-blue-20: #8fabf9; --sds-color-palette-blue-10: #adc2fc; --sds-color-palette-blue-0: #ccdaff; --sds-color-palette-blue-0-transparency-01: rgba(204, 218, 255, 0.40); --sds-color-palette-blue-0-transparency-02: rgba(204, 218, 255, 0.80); --sds-color-palette-blue-30-transparency-01: rgba(114, 149, 246, 0.15); --sds-color-palette-blue-30-transparency-02: rgba(114, 149, 246, 0.30); --sds-color-palette-blue-30-transparency-04: rgba(114, 149, 246, 0.20); --sds-color-palette-blue-50-transparency-02: rgba(57, 105, 239, 0.20); --sds-color-palette-blue-hyperlink: #1a0dab; --sds-color-palette-purple-100: #070019; --sds-color-palette-purple-50: #5132A9; --sds-color-palette-purple-30: #876ECB; --sds-color-palette-purple-20: #A591DC; --sds-color-palette-purple-10: #C7B9EE; --sds-color-palette-purple-0: #ECE6FF; --sds-color-palette-purple-hyperlink: #6C00A2; --sds-color-palette-yellow-80: #c18010; --sds-color-palette-yellow-70: #e2a412; --sds-color-palette-yellow-60: #f9be1a; --sds-color-palette-yellow-50: #ffcc33; --sds-color-palette-yellow-20: #ffe8a3; --sds-color-palette-yellow-0: #fff7e0; --sds-color-palette-green-80: #1a690d; --sds-color-palette-green-70: #288419; --sds-color-palette-green-60: #399F29; --sds-color-palette-green-50: #4CBA3C; --sds-color-palette-green-30: #7BD66D; --sds-color-palette-green-alert-50: #21C000; --sds-color-palette-shade-01: rgba(0, 0, 0, 0.01); --sds-color-palette-shade-03: rgba(0, 0, 0, 0.03); --sds-color-palette-shade-06: rgba(0, 0, 0, 0.06); --sds-color-palette-shade-09: rgba(0, 0, 0, 0.09); --sds-color-palette-shade-12: rgba(0, 0, 0, 0.12); --sds-color-palette-shade-18: rgba(0, 0, 0, 0.18); --sds-color-palette-shade-24: rgba(0, 0, 0, 0.24); --sds-color-palette-shade-30: rgba(0, 0, 0, 0.30); --sds-color-palette-shade-36: rgba(0, 0, 0, 0.36); --sds-color-palette-shade-54: rgba(0, 0, 0, 0.54); --sds-color-palette-shade-60: rgba(0, 0, 0, 0.60); --sds-color-palette-shade-72: rgba(0, 0, 0, 0.72); --sds-color-palette-shade-78: rgba(0, 0, 0, 0.78); --sds-color-palette-shade-84: rgba(0, 0, 0, 0.84); --sds-color-palette-shade-90: rgba(0, 0, 0, 0.90); --sds-color-palette-shade-96: rgba(0, 0, 0, 0.96); --sds-color-palette-red-shade-10: rgba(235, 16, 45, 0.1); --sds-color-palette-red-shade-25: rgba(235, 16, 45, 0.25); --sds-color-palette-red-tint-15: rgba(255, 84, 90, 0.15); --sds-color-palette-red-tint-30: rgba(255, 84, 90, 0.30); --sds-color-palette-blue-shade-40: rgba(204, 218, 255, 0.4); --sds-color-palette-blue-shade-80: rgba(204, 218, 255, 0.8); --sds-color-palette-blue-tint-15: rgba(114, 149, 246, 0.15); --sds-color-palette-blue-tint-30: rgba(114, 149, 246, 0.3); --sds-color-palette-tint-03: rgba(255, 255, 255, 0.03); --sds-color-palette-tint-06: rgba(255, 255, 255, 0.06); --sds-color-palette-tint-09: rgba(255, 255, 255, 0.09); --sds-color-palette-tint-12: rgba(255, 255, 255, 0.12); --sds-color-palette-tint-18: rgba(255, 255, 255, 0.18); --sds-color-palette-tint-24: rgba(255, 255, 255, 0.24); --sds-color-palette-tint-30: rgba(255, 255, 255, 0.30); --sds-color-palette-tint-36: rgba(255, 255, 255, 0.36); --sds-color-palette-tint-72: rgba(255, 255, 255, 0.72); --sds-color-palette-tint-78: rgba(255, 255, 255, 0.78); --sds-color-palette-tint-84: rgba(255, 255, 255, 0.84); --sds-color-palette-tint-90: rgba(255, 255, 255, 0.90); --sds-color-palette-tint-96: rgba(255, 255, 255, 0.96); --sds-color-background-01: #FFFFFF; --sds-color-background-02: #fafafa; --sds-color-background-03: #FFFFFF; --sds-color-background-semi: rgba(0, 0, 0, 0.60); --sds-color-background-semi-state-01: rgba(0, 0, 0, 0.72); --sds-color-background-semi-state-02: rgba(0, 0, 0, 0.84); --sds-color-background-inverse: #222222; --sds-color-background-disabled: rgba(0, 0, 0, 0.06); --sds-color-background-accent-01: #3969ef; --sds-color-background-accent-01-state-01: #2b55ca; --sds-color-background-accent-01-state-02: #1e42a4; --sds-color-background-accent-01-transparency-01: rgba(204, 218, 255, 0.40); --sds-color-background-accent-01-transparency-02: rgba(204, 218, 255, 0.80); --sds-color-background-accent-02: rgba(0, 0, 0, 0.90); --sds-color-background-accent-01-alt: #ccdaff; --sds-color-background-accent-01-alt-state-01: #adc2fc; --sds-color-background-accent-01-alt-state-02: #8fabf9; --sds-color-background-positive: #21C000; --sds-color-background-destructive: #EB102D; --sds-color-background-destructive-state-01: #CF0E28; --sds-color-background-destructive-state-02: #C10D25; --sds-color-background-utility: rgba(0, 0, 0, 0.06); --sds-color-background-utility-state-01: rgba(0, 0, 0, 0.12); --sds-color-background-utility-state-02: rgba(0, 0, 0, 0.18); --sds-color-background-utility-alt: rgba(0, 0, 0, 0.09); --sds-color-background-utility-alt-state-01: rgba(0, 0, 0, 0.12); --sds-color-background-utility-alt-state-02: rgba(0, 0, 0, 0.18); --sds-color-background-container-01: #FFFFFF; --sds-color-background-container-02: #fafafa; --sds-color-background-container-pre: rgba(0, 0, 0, 0.03); --sds-color-background-backdrop: rgba(0, 0, 0, 0.30); --sds-color-background-light: #FFFFFF; --sds-color-background-dark: #222222; --sds-color-background-support-accent-state-01: rgba(204, 218, 255, 0.4); --sds-color-background-support-accent-state-02: rgba(204, 218, 255, 0.8); --sds-color-background-support-utility-state-01: rgba(0, 0, 0, 0.06); --sds-color-background-support-utility-state-02: rgba(0, 0, 0, 0.12); --sds-color-background-support-destructive-state-01: rgba(235, 16, 45, 0.1); --sds-color-background-support-destructive-state-02: rgba(235, 16, 45, 0.25); --sds-color-text-01: #222222; --sds-color-text-02: #444444; --sds-color-text-03: #666666; --sds-color-text-04: #888888; --sds-color-text-disabled: rgba(0, 0, 0, 0.36); --sds-color-text-on-color: #FFFFFF; --sds-color-text-on-dark-01: #FFFFFF; --sds-color-text-on-dark-02: #888888; --sds-color-text-link-01: #1a0dab; --sds-color-text-link-01-visited: #6C00A2; --sds-color-text-link-02: #666666; --sds-color-text-link-02-hover: #444444; --sds-color-text-accent-01: #3969ef; --sds-color-text-accent-01-state-01: #2b55ca; --sds-color-text-accent-01-state-02: #1e42a4; --sds-color-text-accent-02: #222222; --sds-color-text-accent-01-alt: #1e42a4; --sds-color-text-success: #1a690d; --sds-color-text-utility: rgba(0, 0, 0, 0.84); --sds-color-text-destructive: #EB102D; --sds-color-border-01: rgba(0, 0, 0, 0.12); --sds-color-border-02: rgba(0, 0, 0, 0.12); --sds-color-border-03: rgba(0, 0, 0, 0.09); --sds-color-border-disabled: rgba(0, 0, 0, 0.12); --sds-color-border-accent-01: #3969ef; --sds-color-border-accent-01-state-01: rgba(57, 105, 239, 0.20); --sds-color-border-inner-divider: rgba(0, 0, 0, 0.12); --sds-color-border-utility: rgba(0, 0, 0, 0.12); --sds-color-border-destructive: #EB102D; --sds-base-font-size-value: (0.9 * 16); --sds-base-font-size-in-px: 1px * var(--sds-base-font-size-value); --sds-base-px-in-rem: (1rem / var(--sds-base-font-size-value)); --sds-space-x_5: calc(2 * var(--sds-base-px-in-rem)); --sds-space-x01: calc(4 * var(--sds-base-px-in-rem)); --sds-space-x02: calc(8 * var(--sds-base-px-in-rem)); --sds-space-x03: calc(12 * var(--sds-base-px-in-rem)); --sds-space-x04: calc(16 * var(--sds-base-px-in-rem)); --sds-space-x05: calc(20 * var(--sds-base-px-in-rem)); --sds-space-x06: calc(24 * var(--sds-base-px-in-rem)); --sds-space-x07: calc(28 * var(--sds-base-px-in-rem)); --sds-space-x08: calc(32 * var(--sds-base-px-in-rem)); --sds-space-x09: calc(36 * var(--sds-base-px-in-rem)); --sds-space-x10: calc(40 * var(--sds-base-px-in-rem)); --sds-space-x11: calc(44 * var(--sds-base-px-in-rem)); --sds-space-x12: calc(48 * var(--sds-base-px-in-rem)); --sds-space-x13: calc(52 * var(--sds-base-px-in-rem)); --sds-space-x14: calc(56 * var(--sds-base-px-in-rem)); --sds-space-x16: calc(64 * var(--sds-base-px-in-rem)); --sds-space-x17: calc(68 * var(--sds-base-px-in-rem)); --sds-space-x18: calc(72 * var(--sds-base-px-in-rem)); --sds-space-x20: calc(80 * var(--sds-base-px-in-rem)); --sds-space-x24: calc(96 * var(--sds-base-px-in-rem)); --sds-space-x32: calc(128 * var(--sds-base-px-in-rem)); --sds-space-x40: calc(160 * var(--sds-base-px-in-rem)); --sds-space-x48: calc(192 * var(--sds-base-px-in-rem)); --sds-space-x56: calc(224 * var(--sds-base-px-in-rem)); --sds-space-x64: calc(256 * var(--sds-base-px-in-rem)); --sds-space-x72: calc(288 * var(--sds-base-px-in-rem)); --sds-space-x80: calc(320 * var(--sds-base-px-in-rem)); --sds-space-x96: calc(384 * var(--sds-base-px-in-rem)); --sds-radius-x01: calc(4 * var(--sds-base-px-in-rem)); --sds-radius-x02: calc(8 * var(--sds-base-px-in-rem)); --sds-radius-x03: calc(12 * var(--sds-base-px-in-rem)); --sds-radius-x04: calc(16 * var(--sds-base-px-in-rem)); --sds-radius-x05: calc(20 * var(--sds-base-px-in-rem)); --sds-radius-x06: calc(24 * var(--sds-base-px-in-rem)); --sds-radius-x07: calc(28 * var(--sds-base-px-in-rem)); --sds-radius-x08: calc(32 * var(--sds-base-px-in-rem)); --sds-radius-full: calc(999 * var(--sds-base-px-in-rem)); --sds-font-family-01: 'DuckSansProduct', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif; --sds-font-family-monospace: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro','Fira Mono', 'Droid Sans Mono', 'Courier New', monospace; --sds-font-size-01: 1rem; --sds-font-size-title-01: calc(24 / 14 * 1rem); --sds-font-size-title-02: calc(19 / 14 * 1rem); --sds-font-size-body-large: calc(16 / 14 * 1rem); --sds-font-size-body: 1rem; --sds-font-size-caption: calc(13 / 14 * 1rem); --sds-font-size-label: calc(12 / 14 * 1rem); --sds-font-line-height-01: calc(18 / 14); --sds-font-line-height-title-01: calc(32 / 24); --sds-font-line-height-title-02: calc(24 / 19); --sds-font-line-height-body-large: calc(20 / 16); --sds-font-line-height-body: calc(18 / 14); --sds-font-line-height-caption: calc(16 / 13); --sds-font-line-height-label: 1; --sds-font-weight-normal: 400; --sds-font-weight-medium: 430; --sds-font-weight-bold: 700; --ds-color-black: #000000; --ds-color-black-at-1: rgba(0, 0, 0, 0.01); --ds-color-black-at-3: rgba(0, 0, 0, 0.03); --ds-color-black-at-6: rgba(0, 0, 0, 0.06); --ds-color-black-at-8: rgba(0, 0, 0, 0.08); --ds-color-black-at-9: rgba(0, 0, 0, 0.09); --ds-color-black-at-12: rgba(0, 0, 0, 0.12); --ds-color-black-at-16: rgba(0, 0, 0, 0.16); --ds-color-black-at-18: rgba(0, 0, 0, 0.18); --ds-color-black-at-24: rgba(0, 0, 0, 0.24); --ds-color-black-at-30: rgba(0, 0, 0, 0.30); --ds-color-black-at-32: rgba(0, 0, 0, 0.32); --ds-color-black-at-36: rgba(0, 0, 0, 0.36); --ds-color-black-at-48: rgba(0, 0, 0, 0.48); --ds-color-black-at-60: rgba(0, 0, 0, 0.60); --ds-color-black-at-66: rgba(0, 0, 0, 0.66); --ds-color-black-at-72: rgba(0, 0, 0, 0.72); --ds-color-black-at-84: rgba(0, 0, 0, 0.84); --ds-color-black-at-90: rgba(0, 0, 0, 0.90); --ds-color-black-at-96: rgba(0, 0, 0, 0.96); --ds-color-white: #ffffff; --ds-color-white-at-1: rgba(255, 255, 255, 0.01); --ds-color-white-at-3: rgba(255, 255, 255, 0.03); --ds-color-white-at-6: rgba(255, 255, 255, 0.06); --ds-color-white-at-9: rgba(255, 255, 255, 0.09); --ds-color-white-at-12: rgba(255, 255, 255, 0.12); --ds-color-white-at-18: rgba(255, 255, 255, 0.18); --ds-color-white-at-24: rgba(255, 255, 255, 0.24); --ds-color-white-at-36: rgba(255, 255, 255, 0.36); --ds-color-white-at-48: rgba(255, 255, 255, 0.48); --ds-color-white-at-60: rgba(255, 255, 255, 0.60); --ds-color-white-at-64: rgba(255, 255, 255, 0.64); --ds-color-white-at-66: rgba(255, 255, 255, 0.66); --ds-color-white-at-72: rgba(255, 255, 255, 0.72); --ds-color-white-at-80: rgba(255, 255, 255, 0.80); --ds-color-white-at-90: rgba(255, 255, 255, 0.90); --ds-color-white-at-96: rgba(255, 255, 255, 0.96); --ds-color-gray-0: #fafafa; --ds-color-gray-10: #f5f5f5; --ds-color-gray-20: #eeeeee; --ds-color-gray-30: #cccccc; --ds-color-gray-40: #aaaaaa; --ds-color-gray-50: #888888; --ds-color-gray-60: #686868; --ds-color-gray-70: #484848; --ds-color-gray-80: #333333; --ds-color-gray-90: #222222; --ds-color-gray-100: #181818; --ds-color-gray-111: #111111; --ds-color-eggshell-0: #FBFAF9; --ds-color-eggshell-10: #F7F5F2; --ds-color-eggshell-20: #ECEBE7; --ds-color-eggshell-30: #D1CECB; --ds-color-eggshell-40: #B2B0AD; --ds-color-eggshell-50: #8A8886; --ds-color-eggshell-60: #6B6968; --ds-color-eggshell-70: #454443; --ds-color-eggshell-80: #30302F; --ds-color-eggshell-90: #242323; --ds-color-eggshell-100: #181817; --ds-color-blossom-0: #FBF7FF; --ds-color-blossom-10: #F5EDFF; --ds-color-blossom-20: #EADAFD; --ds-color-blossom-30: #D3B9EB; --ds-color-blossom-40: #C19EDB; --ds-color-blossom-50: #9F6EB8; --ds-color-blossom-60: #7D4794; --ds-color-blossom-70: #682A7A; --ds-color-blossom-80: #521A61; --ds-color-blossom-90: #3E0E47; --ds-color-blossom-100: #230829; --ds-color-lilypad-0: #F8FCF9; --ds-color-lilypad-10: #E2F3E9; --ds-color-lilypad-20: #CFEBDA; --ds-color-lilypad-30: #AED5C2; --ds-color-lilypad-40: #84BBA8; --ds-color-lilypad-50: #589D88; --ds-color-lilypad-60: #247A64; --ds-color-lilypad-70: #11604D; --ds-color-lilypad-80: #0A4739; --ds-color-lilypad-90: #052F25; --ds-color-lilypad-100: #082119; --ds-color-mandarin-0: #FFF7F0; --ds-color-mandarin-10: #FFECDB; --ds-color-mandarin-20: #FFE4CC; --ds-color-mandarin-30: #FFB694; --ds-color-mandarin-40: #FF8D5C; --ds-color-mandarin-50: #F05F2B; --ds-color-mandarin-60: #CC3B0A; --ds-color-mandarin-70: #9E2B08; --ds-color-mandarin-80: #671907; --ds-color-mandarin-90: #47140B; --ds-color-mandarin-100: #290E0A; --ds-color-pollen-0: #FFFBF0; --ds-color-pollen-10: #FEF4DA; --ds-color-pollen-20: #FFEAB8; --ds-color-pollen-30: #FFD885; --ds-color-pollen-40: #FFC95C; --ds-color-pollen-50: #FAB341; --ds-color-pollen-60: #F5A031; --ds-color-pollen-70: #B66A1F; --ds-color-pollen-80: #783B13; --ds-color-pollen-90: #47210A; --ds-color-pollen-100: #240F04; --ds-color-pondwater-0: #F5FBFE; --ds-color-pondwater-10: #E6F6FF; --ds-color-pondwater-20: #CBEAFF; --ds-color-pondwater-30: #A1D0F7; --ds-color-pondwater-40: #75B6EB; --ds-color-pondwater-50: #4397E0; --ds-color-pondwater-60: #1074CC; --ds-color-pondwater-70: #045EB2; --ds-color-pondwater-80: #034180; --ds-color-pondwater-90: #02254D; --ds-color-pondwater-100: #01142D; --ds-color-red-0: #FCECF0; --ds-color-red-10: #FAD8DC; --ds-color-red-20: #F7AAAD; --ds-color-red-30: #F06565; --ds-color-red-40: #E44D55; --ds-color-red-50: #D83544; --ds-color-red-60: #CA2B3D; --ds-color-red-70: #A02231; --ds-color-red-80: #671421; --ds-color-red-90: #46111C; --ds-color-red-100: #2A0C14; --ds-color-green-30: #5EC987; --ds-color-green-40: #38B26A; --ds-color-green-50: #269B61; --ds-color-green-60: #138356; --ds-surface-backdrop: #ffffff; --ds-surface-canvas: #ffffff; --ds-surface-primary: #ffffff; --ds-surface-secondary: #ffffff; --ds-surface-tertiary: #ffffff; --ds-surface-contrast: #000000; --ds-surface-decoration-primary: rgba(0, 0, 0, 0.06); --ds-surface-decoration-secondary: rgba(0, 0, 0, 0.12); --ds-surface-decoration-tertiary: rgba(0, 0, 0, 0.16); --ds-container-primary-background-color: rgba(0, 0, 0, 0.01); --ds-container-secondary-background-color: rgba(0, 0, 0, 0.03); --ds-container-tertiary-background-color: rgba(0, 0, 0, 0.06); --ds-container-primary-border-color: rgba(0, 0, 0, 0.06); --ds-container-secondary-border-color: rgba(0, 0, 0, 0.09); --ds-container-tertiary-border-color: rgba(0, 0, 0, 0.12); --ds-text-primary: rgba(0, 0, 0, 0.96); --ds-text-secondary: rgba(0, 0, 0, 0.66); --ds-text-tertiary: rgba(0, 0, 0, 0.36); --ds-icons-primary: rgba(0, 0, 0, 0.96); --ds-icons-secondary: rgba(0, 0, 0, 0.60); --ds-icons-tertiary: rgba(0, 0, 0, 0.36); --ds-accent-primary: #1074CC; --ds-accent-secondary: #045EB2; --ds-accent-tertiary: #034180; --ds-accent-quaternary: #02254D; --ds-accent-glow-primary: rgba(16, 116, 204, 0.20); --ds-accent-glow-secondary: rgba(16, 116, 204, 0.12); --ds-accent-primary-text-color: #1074CC; --ds-accent-secondary-text-color: #045EB2; --ds-accent-tertiary-text-color: #034180; --ds-accent-primary-content-color: #ffffff; --ds-accent-secondary-content-color: rgba(255, 255, 255, 0.72); --ds-accent-tertiary-content-color: rgba(255, 255, 255, 0.48); --ds-accent-alt-primary: #E6F6FF; --ds-accent-alt-secondary: #CBEAFF; --ds-accent-alt-tertiary: #A1D0F7; --ds-accent-alt-glow-primary: rgba(117, 182, 235, 0.20); --ds-accent-alt-glow-secondary: rgba(117, 182, 235, 0.12); --ds-accent-alt-primary-text-color: #045EB2; --ds-accent-alt-secondary-text-color: #034180; --ds-accent-alt-tertiary-text-color: #02254D; --ds-accent-alt-primary-content-color: #02254D; --ds-accent-alt-secondary-content-color: rgba(2, 37, 77, 0.72); --ds-accent-alt-tertiary-content-color: rgba(2, 37, 77, 0.48); --ds-control-primary-background-color: rgba(0, 0, 0, 0.06); --ds-control-secondary-background-color: rgba(0, 0, 0, 0.09); --ds-control-tertiary-background-color: rgba(0, 0, 0, 0.12); --ds-control-primary-border-color: rgba(0, 0, 0, 0.30); --ds-control-secondary-border-color: rgba(0, 0, 0, 0.48); --ds-control-tertiary-border-color: rgba(0, 0, 0, 0.60); --ds-control-quaternary-border-color: rgba(0, 0, 0, 0.72); --ds-control-subtle-primary-border-color: rgba(0, 0, 0, 0.12); --ds-control-subtle-secondary-border-color: rgba(0, 0, 0, 0.18); --ds-control-subtle-tertiary-border-color: rgba(0, 0, 0, 0.36); --ds-control-raised-primary-background-color: #ffffff; --ds-control-raised-secondary-background-color: #f5f5f5; --ds-control-raised-tertiary-background-color: #eeeeee; --ds-control-raised-backdrop: rgba(0, 0, 0, 0.09); --ds-input-primary-background-color: #ffffff; --ds-highlight-primary: rgba(250, 250, 250, 0.24); --ds-tone-brighten-primary: rgba(250, 250, 250, 0.32); --ds-tone-brighten-secondary: rgba(250, 250, 250, 0.60); --ds-tone-darken-primary: rgba(0, 0, 0, 0.03); --ds-shadow-primary-color: rgba(0, 0, 0, 0.06); --ds-shadow-secondary-color: rgba(0, 0, 0, 0.08); --ds-shadow-tertiary-color: rgba(0, 0, 0, 0.16); --ds-destructive-primary: #D83544; --ds-destructive-secondary: #CA2B3D; --ds-destructive-tertiary: #A02231; --ds-destructive-glow-primary: rgba(228, 77, 85, 0.20); --ds-destructive-glow-secondary: rgba(228, 77, 85, 0.12); --ds-destructive-primary-text-color: #CA2B3D; --ds-destructive-secondary-text-color: #A02231; --ds-destructive-tertiary-text-color: #671421; --ds-destructive-primary-content-color: #ffffff; --ds-destructive-secondary-content-color: rgba(255, 255, 255, 0.90); --ds-destructive-tertiary-content-color: rgba(255, 255, 255, 0.60); --ds-status-green: #38B26A; --ds-status-green-text: #138356; --ds-status-yellow: #FAB341; --ds-status-red: #D83544; --ds-status-gray: #888888; --ds-link-primary: #1a0dab; --ds-link-primary-visited: #6C00A2; --ds-link-secondary: #666666; --ds-link-secondary-hover: #444444; --ds-link-header: #1635B6; --ds-color-overlay-backdrop: var(--ds-color-black-at-30); --ds-button-primary-branding-background-color: var(--ds-color-mandarin-50); --ds-button-primary-branding-hover-background-color: var(--ds-color-mandarin-60); --ds-button-primary-branding-active-background-color: var(--ds-color-mandarin-70); --ds-button-primary-branding-content-color: var(--ds-color-white); --ds-button-primary-branding-focus-ring-color: var(--ds-color-mandarin-50); --ds-button-primary-branding-force-dark-background-color: var(--ds-color-pollen-30); --ds-button-primary-branding-force-dark-hover-background-color: var(--ds-color-pollen-40); --ds-button-primary-branding-force-dark-active-background-color: var(--ds-color-pollen-50); --ds-button-primary-branding-force-dark-content-color: var(--ds-color-pollen-100); --ds-link-primary-inverse: #adc2fc; --ds-link-primary-visited-inverse: #A591DC; --ds-accent-primary-inverse: #75B6EB; --ds-accent-secondary-inverse: #4397E0; --ds-font-family-display: 'DuckSansDisplay', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif; --ds-font-family-product: 'DuckSansProduct', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif; --ds-font-family-monospace: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace; --ds-font-weight-normal: 400; --ds-font-weight-semibold: 500; --ds-font-weight-bold: 700; --ds-font-letter-spacing-narrow: -1px; --ds-font-letter-spacing-normal: 0; --ds-font-letter-spacing-wide: 2px; --ds-font-title-05-line-height: 32px; --ds-font-title-05-size: 24px; --ds-font-title-06-line-height: 28px; --ds-font-title-06-size: 20px; --ds-font-body-xxl-line-height: 32px; --ds-font-body-xxl-size: 24px; --ds-font-body-xl-line-height: 28px; --ds-font-body-xl-size: 20px; --ds-font-body-lg-line-height: 24px; --ds-font-body-lg-size: 16px; --ds-font-body-md-line-height: 20px; --ds-font-body-md-size: 14px; --ds-font-body-sm-line-height: 16px; --ds-font-body-sm-size: 12px; --ds-font-button-label-01-line-height: 20px; --ds-font-button-label-01-size: 18px; --ds-font-button-label-02-line-height: 16px; --ds-font-button-label-02-size: 16px; --ds-font-button-label-03-line-height: 16px; --ds-font-button-label-03-size: 14px; --ds-font-label-01-line-height: 12px; --ds-font-label-01-size: 12px; --ds-font-label-01-text-transform: uppercase; --ds-font-caption-01-line-height: 16px; --ds-font-caption-01-size: 13px; --ds-font-title-05-font-family: var(--ds-font-family-display); --ds-font-title-05-letter-spacing: var(--ds-font-letter-spacing-normal); --ds-font-title-05-weight: var(--ds-font-weight-normal); --ds-font-title-06-font-family: var(--ds-font-family-display); --ds-font-title-06-letter-spacing: var(--ds-font-letter-spacing-normal); --ds-font-title-06-weight: var(--ds-font-weight-normal); --ds-font-body-xxl-font-family: var(--ds-font-family-display); --ds-font-body-xxl-letter-spacing: var(--ds-font-letter-spacing-normal); --ds-font-body-xxl-weight: var(--ds-font-weight-normal); --ds-font-body-xl-font-family: var(--ds-font-family-display); --ds-font-body-xl-letter-spacing: var(--ds-font-letter-spacing-normal); --ds-font-body-xl-weight: var(--ds-font-weight-normal); --ds-font-body-lg-font-family: var(--ds-font-family-product); --ds-font-body-lg-letter-spacing: var(--ds-font-letter-spacing-normal); --ds-font-body-lg-weight: var(--ds-font-weight-normal); --ds-font-body-md-font-family: var(--ds-font-family-product); --ds-font-body-md-letter-spacing: var(--ds-font-letter-spacing-normal); --ds-font-body-md-weight: var(--ds-font-weight-normal); --ds-font-body-sm-font-family: var(--ds-font-family-product); --ds-font-body-sm-letter-spacing: var(--ds-font-letter-spacing-normal); --ds-font-body-sm-weight: var(--ds-font-weight-normal); --ds-font-button-label-01-font-family: var(--ds-font-family-product); --ds-font-button-label-01-letter-spacing: var(--ds-font-letter-spacing-normal); --ds-font-button-label-01-weight: var(--ds-font-weight-semibold); --ds-font-button-label-02-font-family: var(--ds-font-family-product); --ds-font-button-label-02-letter-spacing: var(--ds-font-letter-spacing-normal); --ds-font-button-label-02-weight: var(--ds-font-weight-bold); --ds-font-button-label-03-font-family: var(--ds-font-family-product); --ds-font-button-label-03-letter-spacing: var(--ds-font-letter-spacing-normal); --ds-font-button-label-03-weight: var(--ds-font-weight-bold); --ds-font-label-01-font-family: var(--ds-font-family-product); --ds-font-label-01-letter-spacing: var(--ds-font-letter-spacing-normal); --ds-font-label-01-weight: var(--ds-font-weight-bold); --ds-font-caption-01-font-family: var(--ds-font-family-product); --ds-font-caption-01-letter-spacing: var(--ds-font-letter-spacing-normal); --ds-font-caption-01-weight: var(--ds-font-weight-normal); --ds-space-x_5: 2px; --ds-space-x01: 4px; --ds-space-x1_5: 6px; --ds-space-x02: 8px; --ds-space-x02_5: 10px; --ds-space-x03: 12px; --ds-space-x03_5: 14px; --ds-space-x04: 16px; --ds-space-x04_5: 18px; --ds-space-x05: 20px; --ds-space-x06: 24px; --ds-space-x07: 28px; --ds-space-x08: 32px; --ds-space-x09: 36px; --ds-space-x10: 40px; --ds-space-x11: 44px; --ds-space-x12: 48px; --ds-space-x13: 52px; --ds-space-x14: 56px; --ds-space-x15: 60px; --ds-space-x16: 64px; --ds-space-x17: 68px; --ds-space-x18: 72px; --ds-space-x20: 80px; --ds-space-x22: 88px; --ds-space-x24: 96px; --ds-space-x32: 128px; --ds-space-x40: 160px; --ds-space-x48: 192px; --ds-space-x56: 224px; --ds-space-x64: 256px; --ds-space-x72: 288px; --ds-space-x80: 320px; --ds-space-x90: 360px; --ds-space-x96: 384px; --ds-space-x100: 400px; --ds-space-x110: 440px; --ds-space-x130: 520px; --ds-space-x175: 700px; --ds-px-in-rem: 1px; --ds-radius-full: 999px; --ds-radius-x01: 4px; --ds-radius-x02: 8px; --ds-radius-x03: 12px; --ds-radius-x04: 16px; --ds-radius-x05: 20px; --ds-radius-x06: 24px; --ds-radius-x07: 28px; --ds-radius-x08: 32px; --ds-radius-x09: 36px; --ds-radius-x10: 40px; --ds-radius-x11: 44px; --ds-radius-x12: 48px; --ds-z-index-hidden: -999; --ds-z-index-default: 1; --ds-z-index-middle-raised: 50; --ds-z-index-sticky: 55; --ds-z-index-popover: 100; --ds-z-index-side-menu: 200; --ds-z-index-modal-backdrop: 300; --ds-z-index-modal: 305; --ds-z-index-alert: 400; --duckai-color-blue-container: #F3F6FF; --duckai-color-zone-blue-light: #F0F4FF; --duckai-color-zone-blue-accent-light: rgba(57, 105, 239, 0.7); --duckai-color-zone-blue-dark: rgba(27, 45, 94, 0.97); --duckai-color-zone-blue-accent-dark: rgba(57, 105, 239, 0.7); --duckai-color-transparent: transparent; --duckai-color-limit-10: #FFF1B8; --duckai-color-limit-90: #554400; --duckai-box-shadow-scroll-top-light: 0px 1px 12px rgba(0, 0, 0, 0.08); --duckai-box-shadow-scroll-top-dark: 0px 1px 12px 0px var(--ds-color-gray-100), 0px 1px 12px 0px var(--ds-color-gray-100); --duckai-box-shadow-scroll-bottom-light: 0px -1px 12px rgba(0, 0, 0, 0.08); --duckai-box-shadow-scroll-bottom-dark: 0px -1px 12px 0px var(--ds-surface-backdrop), 0px -1px 12px 0px var(--ds-surface-backdrop); --duckai-color-anchor-sleep: var(--ds-color-black-at-36); --duckai-color-border-05: var(--ds-color-black-at-9); --duckai-color-layer4: var(--ds-color-black-at-6); --duckai-color-fill-neutral: var(--ds-color-black-at-6); --duckai-color-container-cream: var(--ds-color-eggshell-10); --duckai-color-drop-zone-bg: var(--duckai-color-zone-blue-light); --duckai-color-drop-zone-border: var(--duckai-color-zone-blue-accent-light); --duckai-color-image-generation-shimmer: var(--ds-color-black-at-9); --duckai-box-shadow-scroll-top: var(--duckai-box-shadow-scroll-top-light); --duckai-box-shadow-scroll-bottom: var(--duckai-box-shadow-scroll-bottom-light); --duckai-color-background-input-disabled-mobile: var(--ds-color-black-at-3); --duckai-color-model-icon: var(--ds-color-gray-70); --duckai-color-model-icon-active: var(--ds-color-black-at-84); --duckai-color-upsell-yellow: var(--duckai-color-limit-10); --duckai-color-promo-card-bg-mobile-active: var(--ds-color-black-at-9); --duckai-color-promo-card-border: var(--ds-color-black-at-9); --duckai-color-attachment-bg: var(--ds-color-white);"><head>
+    <meta charset="UTF-8">
+    <meta name="color-scheme" content="light dark">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Duck.ai by DuckDuckGo. Private AI chat. Free.</title>
+    <meta name="description" content="Use ChatGPT, Claude, and other AIs, privately. Protect chats from hackers, scammers, and companies. Keep info confidential. Free. No account required.">
+    <meta name="keywords" content="Duck.ai, DuckDuckGo AI, private AI chatbot, free AI chat, anonymous AI chat, AI chat no sign up, OpenAI, Anthropic, Llama, Mistral, open source AI models, privacy focused AI, no account AI chat">
+    <meta property="og:title" content="Duck.ai">
+    <meta property="og:image" content="/og-image-duckai.png">
+    <meta property="og:description" content="Use ChatGPT, Claude, and other AIs, privately. Protect chats from hackers, scammers, and companies. Keep info confidential. Free. No account required.">
+    <meta property="og:url" content="https://duck.ai/">
+    <meta property="og:site_name" content="Duck.ai">
+
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="Duck.ai">
+    <link rel="manifest" href="/site.webmanifest" crossorigin="use-credentials">
+    <link rel="preload" href="/font/DuckSansProduct-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/DuckSansProduct-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/DuckSansProduct-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/font/DuckSansDisplay-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+<script>
+try {
+    beforeBody();
+} catch (error) {
+    console.error(error);
+}
+
+function beforeBody() {
+    if (/^\/share\//.test(location.pathname)) {
+        var meta = document.createElement('meta');
+        meta.name = 'robots';
+        meta.content = 'noindex, nofollow';
+        document.head.appendChild(meta);
+    }
+
+    document.documentElement.classList.remove('no-js');
+    var osDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var native = window.__nativeStorageEntries;
+    var isDesktopElectron = !!window.navigator.duckduckgo && window.navigator.duckduckgo.platform === 'electron';
+    var stored = (native && native.setting_kae) || localStorage.setting_kae;
+    var isDark = stored === 'd' || (stored !== '-1' && osDark);
+    document.documentElement.style.colorScheme = isDark ? 'dark' : 'light';
+    document.documentElement.dataset.theme = isDark ? 'dark' : 'light';
+
+    if (isDesktopElectron) {
+        document.documentElement.dataset.desktopElectron = '';
+    }
+
+    // Expose the OS so CSS can target OS-specific quirks. Match desktop
+    // Windows while excluding Windows Phone / Mobile.
+    var ua = window.navigator.userAgent;
+    var isWindows = /Windows|Win32|Win64/i.test(ua) && !/windows phone|windows mobile/i.test(ua);
+    if (isWindows) {
+        document.documentElement.dataset.os = 'windows';
+    }
+
+    try {
+        var sidebarCollapsed =
+            (native && native.duckaiSidebarCollapsed) || localStorage.getItem('duckaiSidebarCollapsed');
+        if (sidebarCollapsed === 'true') {
+            document.documentElement.dataset.sidebarCollapsed = '';
+        }
+    } catch (e) {}
+
+    try {
+        var params = new URLSearchParams(window.location.search);
+        if (params.get('native-input') === 'true') {
+            document.documentElement.dataset.hideChatInputPlaceholder = '';
+        }
+    } catch (e) {}
+}
+
+</script>
+<style>
+/* ===== Skeleton loader =====
+ * Mirrors the React app's final geometry so the page doesn't shift on mount.
+ * All values are hardcoded because --sds-* tokens are set by JS at runtime
+ * and are NOT available at first paint.
+ */
+
+@keyframes skeleton-breath {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@font-face {
+    font-family: 'DuckSansProduct';
+    src: url('/font/DuckSansProduct-Bold.woff2') format('woff2'),
+        url('/font/DuckSansProduct-Bold.woff') format('woff'),
+        url('/font/DuckSansProduct-Bold.ttf') format('truetype');
+    font-weight: 530 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DuckSansProduct';
+    src: url('/font/DuckSansProduct-Medium.woff2') format('woff2'),
+        url('/font/DuckSansProduct-Medium.woff') format('woff'),
+        url('/font/DuckSansProduct-Medium.ttf') format('truetype');
+    font-weight: 430;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DuckSansProduct';
+    src: url('/font/DuckSansProduct-Regular.woff2') format('woff2'),
+        url('/font/DuckSansProduct-Regular.woff') format('woff'),
+        url('/font/DuckSansProduct-Regular.ttf') format('truetype');
+    font-weight: 300 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Paint the root before the skeleton/bundles load; matches --sk-bg below. */
+html,
+body {
+    background-color: #ffffff;
+}
+
+html[data-theme='dark'],
+html[data-theme='dark'] body {
+    background-color: #161616;
+}
+
+.loader {
+    /* -- Sidebar geometry (from sidebar.module.css) -- */
+    --sk-sidebar-width: 300px;
+    --sk-sidebar-collapsed-width: 57px;
+
+    /* -- Colors: light defaults -- */
+    --sk-bg: #ffffff; /* --ds-surface-primary light */
+    --sk-input-bg: #fafafa; /* --ds-color-gray-0 */
+    --sk-sidebar-border: rgba(0, 0, 0, 0.09); /* border-05 light */
+    --sk-input-border: rgba(0, 0, 0, 0.12); /* --ds-container-tertiary-border-color light */
+    --sk-sidebar-text: rgba(0, 0, 0, 0.36); /* --ds-text-tertiary light */
+    --sk-sidebar-icon-bg: rgba(0, 0, 0, 0.09); /* --ds-container-secondary-border-color light */
+    --sk-action-bg: rgba(0, 0, 0, 0.06); /* button/level-1 light */
+
+    /* -- Layout -- */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    padding-right: 4px; /* --ds-space-x01: matches .duckChatLayout padding-right */
+    box-sizing: border-box;
+    background-color: var(--sk-bg);
+    transition: opacity 0.3s ease-out;
+}
+
+.loader.loader-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Small desktop (sidebar.module.css @media --max-gutter-md) */
+@media (max-width: 1079px) {
+    .loader {
+        --sk-sidebar-width: 316px;
+    }
+}
+
+/* Dark theme (from theme-colors.ts dark mappings + color-palette.ts) */
+[data-theme='dark'] .loader {
+    --sk-bg: #161616;
+    --sk-input-bg: rgba(255, 255, 255, 0.09); /* --ds-color-white-at-9 */
+    --sk-sidebar-border: rgba(255, 255, 255, 0.12); /* border-05 dark */
+    --sk-input-border: transparent;
+    --sk-sidebar-text: rgba(255, 255, 255, 0.36); /* --ds-text-tertiary dark */
+    --sk-sidebar-icon-bg: rgba(255, 255, 255, 0.12); /* --ds-container-tertiary-border-color dark */
+    --sk-action-bg: rgba(255, 255, 255, 0.18); /* button/level-1 dark */
+}
+
+/* ===== Sidebar skeleton ===== */
+.sk-sidebar {
+    width: var(--sk-sidebar-width);
+    min-width: var(--sk-sidebar-width);
+    background-color: var(--sk-bg);
+    border-right: 1px solid var(--sk-sidebar-border);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px 6px 0 6px;
+}
+
+[data-sidebar-collapsed] .sk-sidebar {
+    width: var(--sk-sidebar-collapsed-width);
+    min-width: var(--sk-sidebar-collapsed-width);
+}
+ 
+/* If the search input's height changes, this value must follow it.
+ * Mirrored in sidebar.module.css → .contents .sidebarHeader + .headerSwap */
+.sk-sidebar-header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 2px 4px 8px; /* --ds-space-x_5 right, --ds-space-x01 bottom, --ds-space-x02 left */
+    box-sizing: border-box;
+}
+
+.sk-sidebar-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: var(--sk-sidebar-icon-bg);
+    flex-shrink: 0;
+}
+
+/* Mirrors DSText variant="body-emphasis" (--ds-font-body-md-*) plus the 2px
+ * margin-top from sidebar.module.css → .leftBlock .sidebarHeaderTitle. */
+.sk-sidebar-title {
+    font-family: 'DuckSansProduct', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 14px; /* --ds-font-body-md-size */
+    line-height: 20px; /* --ds-font-body-md-line-height */
+    font-weight: 700; /* --ds-font-weight-bold */
+    letter-spacing: normal; /* --ds-font-letter-spacing-normal */
+    color: var(--sk-sidebar-text);
+    margin-top: 2px;
+    margin-left: 8px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.sk-sidebar-footer {
+    height: 80px;
+    margin-left: -6px;
+    margin-right: -6px;
+    border-top: 1px solid var(--sk-sidebar-border);
+    box-sizing: border-box;
+}
+
+/* Hide sidebar content when collapsed */
+[data-sidebar-collapsed] .sk-sidebar-header,
+[data-sidebar-collapsed] .sk-sidebar-footer {
+    display: none;
+}
+
+/* No sidebar on mobile */
+@media (max-width: 900px) {
+    .sk-sidebar {
+        display: none;
+    }
+}
+
+/* ===== Main content area (matches .chatRoot) ===== */
+.sk-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+/* Top toolbar spacer (top-toolbar.module.css .root.newChat = 52px) */
+.sk-toolbar {
+    height: 52px;
+    flex-shrink: 0;
+}
+
+/* Chat content area (matches .chatStackContainer, flex: 1) */
+.sk-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
+
+/* Empty state spacer — reserves vertical space so the input stays positioned correctly.
+ * Contains .sk-lockup which mirrors the real DuckAI logo + title lockup geometry. */
+.sk-empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Logo placeholder — mirrors .logo + .lockupTitle space in chat-empty-state.module.css.
+ * height(120) + margin-top(-16) + margin-bottom(24) = 128px contribution to .sk-empty-state,
+ * which matches the real lockup height (logo 120 + title 32 + title margin-top -8 = 128).
+ * If --sds-font-line-height-title-01 changes, revisit the 24px margin-bottom below.
+ * Mirrored in chat-empty-state.module.css → .logo */
+.sk-lockup {
+    width: 120px;
+    height: 120px;
+    margin-top: -16px;
+    margin-bottom: 24px;
+    border-radius: 50%;
+    background-color: var(--sk-action-bg);
+    flex-shrink: 0;
+}
+
+/* ===== Input area — matches .emptyStateContainer positioning ===== */
+.sk-input-area {
+    width: 100%;
+    padding: 0 64px; /* --ds-space-x16 = 64px (--duckai-chat-left/right-padding desktop) */
+    box-sizing: border-box;
+}
+
+/* Desktop: spacer offsets input from top (matches emptyStateContainer layout) */
+@media (min-width: 901px) {
+    .sk-empty-state {
+        margin-top: calc(30vh - 96px); /* emptyStateContainer margin-top */
+        margin-bottom: 24px; /* --ds-space-x06 */
+        /* min-height removed — .sk-lockup now drives the intrinsic height */
+    }
+}
+
+/* Small desktop: titleContainer uses --ds-space-x09 at this breakpoint */
+@media (min-width: 901px) and (max-width: 1079px) {
+    .sk-empty-state {
+        margin-bottom: 36px;
+    }
+}
+
+/* Input container — matches .inputGroup outer box */
+.sk-input {
+    width: 100%;
+    max-width: 640px; /* --duckai-chat-max-width-empty-state */
+    margin: 0 auto;
+    height: 100px; /* --ds-space-x10(40) + --ds-space-x15(60) = 100px */
+    display: flex;
+    padding: 12px; /* --ds-space-x03 */
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: stretch;
+    gap: 12px; /* --ds-space-x03 */
+    background-color: var(--sk-input-bg);
+    border: 1px solid var(--sk-input-border);
+    border-radius: 24px; /* --ds-radius-x06 */
+    box-sizing: border-box;
+}
+
+/* Top row inside input — takes remaining height */
+.sk-input-top {
+    flex: 1;
+}
+
+.sk-input-pill {
+    width: 30%;
+    height: 100%;
+    margin-top: 4px;
+    border-radius: 9999px; /* --ds-radius-full */
+    background-color: var(--sk-action-bg);
+}
+
+/* Action buttons row inside input */
+.sk-input-actions {
+    height: 32px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+}
+
+.sk-input-actions-left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.sk-action-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--sk-action-bg);
+    flex-shrink: 0;
+}
+
+/* Disclaimer spacer — reserves vertical space below the input.
+ * Matches .footerDisclaimer padding + approximate single-line text height. */
+.sk-disclaimer-spacer {
+    width: 100%;
+    max-width: 938px; /* --duckai-chat-max-width */
+    margin: auto;
+    margin-bottom: 0;
+    padding: 8px 56px; /* --ds-space-x02(8) --ds-space-x14(56) */
+    min-height: 13px; /* ≈ one line of label text (12.3px) */
+    box-sizing: border-box;
+}
+
+/* ModeEntryPoints spacer — hidden on desktop (matches mode-entry-points.module.css .container display:none) */
+.sk-entry-points {
+    display: none;
+}
+
+/* Mobile/tablet: input centered vertically (matches emptyStateContainer flex-grow:1 + justify-content:center) */
+@media (max-width: 900px) {
+    .loader {
+        padding-right: 0; /* no layout padding-right on mobile */
+    }
+    .sk-empty-state {
+        /* flex: 1 1 auto so the lockup's intrinsic height participates in
+         * free-space distribution; the default flex: 1 (= 1 1 0%) would treat
+         * .sk-lockup as zero-basis and leave the input position unchanged. */
+        flex: 1 1 auto;
+        justify-content: flex-end; /* keep lockup close to the input during first paint */
+    }
+    .sk-lockup {
+        width: 112px;
+        height: 112px;
+    }
+    .sk-input-area {
+        max-width: 700px; /* --duckai-chat-max-width-mobile (footer max-width) */
+        margin: 0 auto;
+        padding: 0 12px; /* --ds-space-x03 = 12px (--duckai-chat-left/right-padding mobile) */
+    }
+    .sk-input {
+        max-width: none; /* input fills the 700px footer area, not capped at 640px */
+        min-height: 98px; /* mobile: x10(40) + x14(56) + 2px border = 98px */
+    }
+    .sk-entry-points {
+        display: block;
+        margin-top: 16px; /* --ds-space-x04 (matches ModeEntryPoints container margin-top) */
+        height: 26px;
+    }
+    .sk-disclaimer-spacer {
+        flex: 1; /* bottom spacer: balances top spacer to center the input */
+        margin: 0;
+        padding: 0;
+        min-height: 0;
+        max-width: none;
+    }
+}
+
+/* ===== Breathing animation ===== */
+.sk-sidebar-icon,
+.sk-sidebar-title,
+.sk-lockup,
+.sk-input {
+    animation: skeleton-breath 2s ease-in-out infinite;
+}
+
+/* ===== Noscript message styles ===== */
+.noscript-container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    padding: 16px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.noscript-text {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #111;
+}
+
+/* Electron: hide sidebar header (behind window controls / traffic lights) */
+[data-desktop-electron] .sk-sidebar-header {
+    visibility: hidden;
+}
+
+/* Electron: make skeleton sidebar draggable (visibility:hidden on header blocks drag, so target parent) */
+[data-desktop-electron] .sk-sidebar {
+    -webkit-app-region: drag;
+}
+
+/* Electron: make skeleton toolbar draggable (mirrors React's electronDragRegion on top-toolbar) */
+[data-desktop-electron] .sk-toolbar {
+    -webkit-app-region: drag;
+}
+
+/* Hide the chat input skeleton when the native app provides its own input
+ * (no web form will mount). Set pre-paint by inline.js so the input area
+ * is never laid out and there's no flash. Targets .sk-input-area so the
+ * input box AND the mobile entry-points strip collapse together; the
+ * surrounding flex spacers keep the layout centered. */
+[data-hide-chat-input-placeholder] .sk-input-area {
+    display: none;
+}
+
+/* Hide loader when JS is disabled */
+.no-js .loader {
+    display: none;
+}
+
+</style>
+<link rel="alternate" hreflang="af-ZA" href="https://duck.ai/?locale=af_ZA">
+<link rel="alternate" hreflang="ar-DZ" href="https://duck.ai/?locale=ar_DZ">
+<link rel="alternate" hreflang="ar-EG" href="https://duck.ai/?locale=ar_EG">
+<link rel="alternate" hreflang="ar-JO" href="https://duck.ai/?locale=ar_JO">
+<link rel="alternate" hreflang="ar-SA" href="https://duck.ai/?locale=ar_SA">
+<link rel="alternate" hreflang="ast-ES" href="https://duck.ai/?locale=ast_ES">
+<link rel="alternate" hreflang="az-AZ" href="https://duck.ai/?locale=az_AZ">
+<link rel="alternate" hreflang="be-BY" href="https://duck.ai/?locale=be_BY">
+<link rel="alternate" hreflang="bg-BG" href="https://duck.ai/?locale=bg_BG">
+<link rel="alternate" hreflang="bn-BD" href="https://duck.ai/?locale=bn_BD">
+<link rel="alternate" hreflang="bn-IN" href="https://duck.ai/?locale=bn_IN">
+<link rel="alternate" hreflang="bo-CN" href="https://duck.ai/?locale=bo_CN">
+<link rel="alternate" hreflang="br-FR" href="https://duck.ai/?locale=br_FR">
+<link rel="alternate" hreflang="bs-BA" href="https://duck.ai/?locale=bs_BA">
+<link rel="alternate" hreflang="ca-ES" href="https://duck.ai/?locale=ca_ES">
+<link rel="alternate" hreflang="cs-CZ" href="https://duck.ai/?locale=cs_CZ">
+<link rel="alternate" hreflang="cy-GB" href="https://duck.ai/?locale=cy_GB">
+<link rel="alternate" hreflang="da-DK" href="https://duck.ai/?locale=da_DK">
+<link rel="alternate" hreflang="de-CH" href="https://duck.ai/?locale=de_CH">
+<link rel="alternate" hreflang="de-DE" href="https://duck.ai/?locale=de_DE">
+<link rel="alternate" hreflang="el-GR" href="https://duck.ai/?locale=el_GR">
+<link rel="alternate" hreflang="en-AU" href="https://duck.ai/?locale=en_AU">
+<link rel="alternate" hreflang="en-CA" href="https://duck.ai/?locale=en_CA">
+<link rel="alternate" hreflang="en-GB" href="https://duck.ai/?locale=en_GB">
+<link rel="alternate" hreflang="en-US" href="https://duck.ai/">
+<link rel="alternate" hreflang="eo-XX" href="https://duck.ai/?locale=eo_XX">
+<link rel="alternate" hreflang="es-AR" href="https://duck.ai/?locale=es_AR">
+<link rel="alternate" hreflang="es-CL" href="https://duck.ai/?locale=es_CL">
+<link rel="alternate" hreflang="es-CO" href="https://duck.ai/?locale=es_CO">
+<link rel="alternate" hreflang="es-CR" href="https://duck.ai/?locale=es_CR">
+<link rel="alternate" hreflang="es-EC" href="https://duck.ai/?locale=es_EC">
+<link rel="alternate" hreflang="es-ES" href="https://duck.ai/?locale=es_ES">
+<link rel="alternate" hreflang="es-MX" href="https://duck.ai/?locale=es_MX">
+<link rel="alternate" hreflang="es-PE" href="https://duck.ai/?locale=es_PE">
+<link rel="alternate" hreflang="es-UY" href="https://duck.ai/?locale=es_UY">
+<link rel="alternate" hreflang="es-VE" href="https://duck.ai/?locale=es_VE">
+<link rel="alternate" hreflang="et-EE" href="https://duck.ai/?locale=et_EE">
+<link rel="alternate" hreflang="eu-ES" href="https://duck.ai/?locale=eu_ES">
+<link rel="alternate" hreflang="fa-IR" href="https://duck.ai/?locale=fa_IR">
+<link rel="alternate" hreflang="fi-FI" href="https://duck.ai/?locale=fi_FI">
+<link rel="alternate" hreflang="fr-BE" href="https://duck.ai/?locale=fr_BE">
+<link rel="alternate" hreflang="fr-CA" href="https://duck.ai/?locale=fr_CA">
+<link rel="alternate" hreflang="fr-CH" href="https://duck.ai/?locale=fr_CH">
+<link rel="alternate" hreflang="fr-FR" href="https://duck.ai/?locale=fr_FR">
+<link rel="alternate" hreflang="ga-IE" href="https://duck.ai/?locale=ga_IE">
+<link rel="alternate" hreflang="gd-GB" href="https://duck.ai/?locale=gd_GB">
+<link rel="alternate" hreflang="gl-ES" href="https://duck.ai/?locale=gl_ES">
+<link rel="alternate" hreflang="gu-IN" href="https://duck.ai/?locale=gu_IN">
+<link rel="alternate" hreflang="he-IL" href="https://duck.ai/?locale=he_IL">
+<link rel="alternate" hreflang="hi-IN" href="https://duck.ai/?locale=hi_IN">
+<link rel="alternate" hreflang="hr-HR" href="https://duck.ai/?locale=hr_HR">
+<link rel="alternate" hreflang="hu-HU" href="https://duck.ai/?locale=hu_HU">
+<link rel="alternate" hreflang="hy-AM" href="https://duck.ai/?locale=hy_AM">
+<link rel="alternate" hreflang="id-ID" href="https://duck.ai/?locale=id_ID">
+<link rel="alternate" hreflang="io-XX" href="https://duck.ai/?locale=io_XX">
+<link rel="alternate" hreflang="is-IS" href="https://duck.ai/?locale=is_IS">
+<link rel="alternate" hreflang="it-IT" href="https://duck.ai/?locale=it_IT">
+<link rel="alternate" hreflang="ja-JP" href="https://duck.ai/?locale=ja_JP">
+<link rel="alternate" hreflang="ka-GE" href="https://duck.ai/?locale=ka_GE">
+<link rel="alternate" hreflang="kab-DZ" href="https://duck.ai/?locale=kab_DZ">
+<link rel="alternate" hreflang="kn-IN" href="https://duck.ai/?locale=kn_IN">
+<link rel="alternate" hreflang="ko-KR" href="https://duck.ai/?locale=ko_KR">
+<link rel="alternate" hreflang="ku" href="https://duck.ai/?locale=ku">
+<link rel="alternate" hreflang="kw-GB" href="https://duck.ai/?locale=kw_GB">
+<link rel="alternate" hreflang="ky-KG" href="https://duck.ai/?locale=ky_KG">
+<link rel="alternate" hreflang="ln-CD" href="https://duck.ai/?locale=ln_CD">
+<link rel="alternate" hreflang="lt-LT" href="https://duck.ai/?locale=lt_LT">
+<link rel="alternate" hreflang="lv-LV" href="https://duck.ai/?locale=lv_LV">
+<link rel="alternate" hreflang="ml-IN" href="https://duck.ai/?locale=ml_IN">
+<link rel="alternate" hreflang="mn-MN" href="https://duck.ai/?locale=mn_MN">
+<link rel="alternate" hreflang="mr-IN" href="https://duck.ai/?locale=mr_IN">
+<link rel="alternate" hreflang="ms-MY" href="https://duck.ai/?locale=ms_MY">
+<link rel="alternate" hreflang="nb-NO" href="https://duck.ai/?locale=nb_NO">
+<link rel="alternate" hreflang="ne-NP" href="https://duck.ai/?locale=ne_NP">
+<link rel="alternate" hreflang="nl-BE" href="https://duck.ai/?locale=nl_BE">
+<link rel="alternate" hreflang="nl-NL" href="https://duck.ai/?locale=nl_NL">
+<link rel="alternate" hreflang="nn-NO" href="https://duck.ai/?locale=nn_NO">
+<link rel="alternate" hreflang="od-IN" href="https://duck.ai/?locale=od_IN">
+<link rel="alternate" hreflang="pl-PL" href="https://duck.ai/?locale=pl_PL">
+<link rel="alternate" hreflang="ps-AF" href="https://duck.ai/?locale=ps_AF">
+<link rel="alternate" hreflang="pt-BR" href="https://duck.ai/?locale=pt_BR">
+<link rel="alternate" hreflang="pt-PT" href="https://duck.ai/?locale=pt_PT">
+<link rel="alternate" hreflang="ro-RO" href="https://duck.ai/?locale=ro_RO">
+<link rel="alternate" hreflang="ru-RU" href="https://duck.ai/?locale=ru_RU">
+<link rel="alternate" hreflang="sc-IT" href="https://duck.ai/?locale=sc_IT">
+<link rel="alternate" hreflang="si-LK" href="https://duck.ai/?locale=si_LK">
+<link rel="alternate" hreflang="sk-SK" href="https://duck.ai/?locale=sk_SK">
+<link rel="alternate" hreflang="sl-SI" href="https://duck.ai/?locale=sl_SI">
+<link rel="alternate" hreflang="sq-AL" href="https://duck.ai/?locale=sq_AL">
+<link rel="alternate" hreflang="sr-RS" href="https://duck.ai/?locale=sr_RS">
+<link rel="alternate" hreflang="sv-SE" href="https://duck.ai/?locale=sv_SE">
+<link rel="alternate" hreflang="ta-IN" href="https://duck.ai/?locale=ta_IN">
+<link rel="alternate" hreflang="te-IN" href="https://duck.ai/?locale=te_IN">
+<link rel="alternate" hreflang="th-TH" href="https://duck.ai/?locale=th_TH">
+<link rel="alternate" hreflang="tl-PH" href="https://duck.ai/?locale=tl_PH">
+<link rel="alternate" hreflang="tokipona-XX" href="https://duck.ai/?locale=tokipona_XX">
+<link rel="alternate" hreflang="tpi-PG" href="https://duck.ai/?locale=tpi_PG">
+<link rel="alternate" hreflang="tr-TR" href="https://duck.ai/?locale=tr_TR">
+<link rel="alternate" hreflang="uk-UA" href="https://duck.ai/?locale=uk_UA">
+<link rel="alternate" hreflang="ur-PK" href="https://duck.ai/?locale=ur_PK">
+<link rel="alternate" hreflang="vi-VN" href="https://duck.ai/?locale=vi_VN">
+<link rel="alternate" hreflang="zh-CN" href="https://duck.ai/?locale=zh_CN">
+<link rel="alternate" hreflang="zh-TW" href="https://duck.ai/?locale=zh_TW">
+<link rel="alternate" hreflang="x-default" href="https://duck.ai/">
+<link rel="canonical" href="https://duck.ai/">
+    <link rel="stylesheet" href="/dist/duckai-dist/entry.duckai.8156c5447d39ed5d6628.css">
+<style>@keyframes sd-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes sd-blurIn {
+  from {
+    opacity: 0;
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes sd-slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+[data-sd-animate] {
+  animation: var(--sd-animation, sd-fadeIn) var(--sd-duration, 150ms)
+    var(--sd-easing, ease) both;
+}
+</style><script charset="utf-8" data-webpack="ddg:chunk-7888" src="/dist/duckai-dist/chunk.7888.6289df667dfa359bdc2e.js"></script><link data-handle-css-custom-properties="true" rel="stylesheet" type="text/css" href="/dist/duckai-dist/chunk.duckai-arrow-animation.38dc9f7aa21b5e84ba0c.css"><script charset="utf-8" data-webpack="ddg:chunk-4007" src="/dist/duckai-dist/chunk.duckai-arrow-animation.2846ecfc4d7e516e709e.js"></script><link data-handle-css-custom-properties="true" rel="stylesheet" type="text/css" href="/dist/duckai-dist/chunk.dictation-privacy-modal.6d5f19d2939c5cba3dba.css"><script charset="utf-8" data-webpack="ddg:chunk-2933" src="/dist/duckai-dist/chunk.dictation-privacy-modal.ba1db44e6ebffd7f2a56.js"></script><link data-handle-css-custom-properties="true" rel="stylesheet" type="text/css" href="/dist/duckai-dist/chunk.voice-chat-privacy-modal.5a70db9a4e0ede13ab00.css"><script charset="utf-8" data-webpack="ddg:chunk-2445" src="/dist/duckai-dist/chunk.voice-chat-privacy-modal.ed28d3ddad0bdfe63de1.js"></script></head>
+<body>
+    <noscript>
+        <div class="noscript-container">
+            <p class="noscript-text">Duck.ai requires JavaScript to run</p>
+            <p class="noscript-text">Visit <a href="https://duckduckgo.com">duckduckgo.com</a></p>
+        </div>
+    </noscript>
+    <div id="app-loader" class="loader">
+        <div class="sk-sidebar">
+            <div class="sk-sidebar-header">
+                <div class="sk-sidebar-icon"></div>
+                <span class="sk-sidebar-title">Duck.ai</span>
+            </div>
+            <div class="sk-sidebar-footer"></div>
+        </div>
+        <div class="sk-main">
+            <div class="sk-toolbar"></div>
+            <div class="sk-content">
+                <div class="sk-empty-state">
+                    <div class="sk-lockup"></div>
+                </div>
+                <div class="sk-input-area">
+                    <div class="sk-input">
+                        <div class="sk-input-top">
+                            <div class="sk-input-pill"></div>
+                        </div>
+                        <div class="sk-input-actions">
+                            <div class="sk-input-actions-left">
+                                <div class="sk-action-btn"></div>
+                                <div class="sk-action-btn"></div>
+                            </div>
+                            <div class="sk-action-btn"></div>
+                        </div>
+                    </div>
+                    <div class="sk-entry-points"></div>
+                </div>
+                <div class="sk-disclaimer-spacer"></div>
+            </div>
+        </div>
+    </div>
+    <div id="app"><div><main class="rwHXT40MKuShkXKetVvg" style="--dc-layout-reserved-height: 0px; --dc-layout-margin-top: 0px;"><section data-testid="duckai-sidebar" class="YPppfYto3DNJdsEUAPF3"><div class="oqrqF678AdR19uQ4qPBN Mk7w0GCL3vdG36PNZTMz"><div class="ZkP2sAxaT6D06RgxqZSx"><div class="F5vbRkScKFOzJmlIKPTX F60pbYFNiVNPbyViQ_Bb Ws9aMRLGvZjmevkiSCDd" style="opacity: 1;"><div class="y8qZjjhkSVTmBOORd3oQ"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path d="M17.049 1.328c.442-1.77 2.959-1.77 3.402 0l.204.816a1.65 1.65 0 0 0 1.2 1.2l.816.205c1.771.443 1.771 2.96 0 3.402l-.816.205c-.246.061-.47.178-.658.336A11.2 11.2 0 0 1 22.5 12.75C22.5 18.963 17.463 24 11.25 24S0 18.963 0 12.75 5.037 1.5 11.25 1.5c1.9 0 3.689.471 5.258 1.303.158-.188.274-.412.336-.659l.205-.816Z" fill="#DE5833"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M12.832 21.144c0-.088.022-.108-.258-.665-.742-1.487-1.489-3.583-1.15-4.935.063-.246-.698-9.096-1.237-9.38-.598-.32-1.334-.825-2.007-.938-.341-.054-.79-.028-1.14.019-.061.008-.064.12-.005.14.23.078.51.213.674.417.03.04-.01.1-.06.102-.155.006-.437.07-.808.386-.043.036-.007.104.048.093.798-.158 1.612-.08 2.092.356.031.028.015.08-.026.09-4.165 1.132-3.34 4.755-2.232 9.201.988 3.96 1.36 5.237 1.477 5.626a.126.126 0 0 0 .074.082c1.434.571 4.558.596 4.558-.375v-.22Z" fill="#DDD"></path><path d="M13.403 21.979c-.505.197-1.494.285-2.065.285-.838 0-2.044-.132-2.483-.33a98.603 98.603 0 0 1-1.964-7.033L6.89 14.9c-.954-3.895-1.732-7.076 2.536-8.075.039-.01.058-.056.032-.087-.49-.58-1.407-.771-2.567-.371-.048.016-.089-.032-.06-.072.228-.314.673-.555.892-.66.045-.023.043-.089-.005-.104a4.899 4.899 0 0 0-.663-.158c-.065-.01-.071-.122-.006-.13 1.645-.222 3.362.272 4.224 1.357.008.01.02.018.033.02 3.155.678 3.381 5.667 3.018 5.894-.072.045-.302.019-.605-.015-1.228-.137-3.66-.41-1.652 3.33.02.038-.007.086-.048.093-1.132.176.318 3.722 1.384 6.058Z" fill="#fff"></path><path d="M11.25 3c.789 0 1.556.094 2.29.271.381.092.426.71.223 1.044-.02.033-.038.066-.056.1-.11.213-.346.356-.58.301a8.25 8.25 0 1 0 6.157 6.157c-.055-.234.088-.47.301-.58a1.7 1.7 0 0 0 .1-.056c.334-.204.95-.16 1.043.221.177.735.272 1.502.272 2.292 0 5.385-4.365 9.75-9.75 9.75S1.5 18.135 1.5 12.75 5.865 3 11.25 3Z" fill="#fff"></path><path d="M14.815 17.443c-.24-.111-1.164.551-1.777 1.06-.128-.182-.37-.314-.915-.219-.477.083-.74.198-.858.396-.753-.285-2.02-.725-2.325-.3-.335.465.083 2.665.528 2.95.232.15 1.341-.563 1.92-1.055.094.132.244.207.554.2.467-.011 1.226-.12 1.344-.338a.243.243 0 0 0 .019-.047c.595.223 1.643.459 1.877.423.61-.091-.085-2.94-.367-3.07Z" fill="#3CA82B"></path><path d="M13.094 18.568a.923.923 0 0 1 .063.14c.085.238.223.993.118 1.18-.104.186-.783.276-1.203.284-.418.007-.513-.146-.598-.384-.068-.19-.101-.636-.1-.892-.017-.38.121-.512.762-.616.474-.077.724.012.869.165.673-.502 1.795-1.21 1.905-1.081.546.645.615 2.183.497 2.802-.04.202-1.847-.2-1.847-.419 0-.905-.235-1.154-.466-1.18ZM9.134 18.285c.148-.234 1.349.057 2.008.35 0 0-.136.614.08 1.337.063.211-1.517 1.153-1.723.99-.238-.186-.677-2.184-.365-2.677Z" fill="#4CBA3C"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M9.715 13.525c.097-.423.55-1.219 2.166-1.2.817-.003 1.832 0 2.505-.076 1-.114 1.742-.356 2.237-.544.7-.267.947-.208 1.034-.048.096.175-.017.479-.261.757-.467.533-1.306.946-2.789 1.069-1.482.122-2.464-.276-2.887.372-.182.279-.041.937 1.392 1.144 1.938.28 3.528-.337 3.725.036.197.372-.936 1.13-2.876 1.145-1.94.016-3.152-.679-3.582-1.024-.546-.439-.79-1.078-.664-1.631Z" fill="#FC3"></path><g opacity="0.8" fill="#14307E"><path d="M12.186 8.905c.108-.177.348-.314.741-.314s.578.156.706.33c.026.036-.014.078-.054.06l-.03-.013a1.444 1.444 0 0 0-.622-.144 1.28 1.28 0 0 0-.655.146c-.043.024-.111-.023-.086-.065ZM7.764 9.132c.382-.16.681-.14.893-.089.045.01.076-.037.04-.066-.164-.133-.532-.298-1.012-.119-.429.16-.63.492-.632.71 0 .052.106.056.133.012.074-.117.197-.289.578-.448Z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M13.26 11.33a.61.61 0 0 1-.61-.609.61.61 0 0 1 1.221 0 .61.61 0 0 1-.61.608Zm.431-.81a.158.158 0 0 0-.316 0 .158.158 0 0 0 .316 0ZM9.215 11.142a.711.711 0 0 1-1.424 0 .711.711 0 0 1 1.424 0Zm-.21-.235a.184.184 0 1 0-.368 0 .184.184 0 0 0 .368 0Z"></path></g><path d="M18.396 8.835c.092.368.616.368.708 0l.204-.816a3.039 3.039 0 0 1 2.21-2.211l.817-.204c.368-.092.368-.616 0-.708l-.816-.204a3.039 3.039 0 0 1-2.211-2.21l-.204-.817c-.092-.368-.616-.368-.708 0l-.204.816a3.039 3.039 0 0 1-2.211 2.211l-.816.204c-.368.092-.368.616 0 .708l.816.204a3.039 3.039 0 0 1 2.211 2.21l.204.817Z" fill="#fff"></path></svg><span class="ie2hOp3ede6jYFyghp4k uHPaz1NVFLwooyN_82Xl kt6UuUXSyv0OuHss0m3B CacXtJfGtE47SYE_l9Hn"><strong>Duck.ai</strong></span></div><button type="button" class="TMqvZ1I3qrRJwtwIiaVN Fax09GBRvgd5FX9cxN3C mDfTLfECeDUwedENpz0Z O7gLkV4OTP_SAakrV0Fz NxQ_XDftVJuKF78Ks2_x OhG9LLPvxEfkc58soEam" aria-label="Hide sidebar, CTRL + ⇧ + S" color="icon-secondary" tabindex="0"><span class="snWtnDcE85BTjifnEcaT"><span class="YdV8N3xMtuaHBPdM_MU_"><svg fill="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" color="currentColor"><path fill="currentColor" d="M12 1c2.21 0 4 1.79 4 4v6c0 2.21-1.79 4-4 4H4c-2.21 0-4-1.79-4-4V5c0-2.21 1.79-4 4-4zM6 13.75h6c1.519 0 2.75-1.231 2.75-2.75V5c0-1.519-1.231-2.75-2.75-2.75H6zM4 2.25C2.481 2.25 1.25 3.481 1.25 5v6c0 1.519 1.231 2.75 2.75 2.75h.75V2.25z"></path></svg></span></span></button></div><div class="B49MqxefLFDp3516n5JQ F60pbYFNiVNPbyViQ_Bb" style="opacity: 0;"><div class="vZOEWUrKiQfA6xIOkksm" role="search"><div class="bfuLQNlDLTPnno3RTZht"><svg fill="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" color="currentColor" class="uRfs_JNn08yX7JHyCp0s" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M7 0C3.134 0 0 3.134 0 7s3.134 7 7 7c1.708 0 3.273-.612 4.488-1.628l3.445 3.445c.244.244.64.244.884 0s.244-.64 0-.884l-3.445-3.445C13.388 10.273 14 8.708 14 7c0-3.866-3.134-7-7-7M1.25 7c0-3.176 2.574-5.75 5.75-5.75S12.75 3.824 12.75 7 10.176 12.75 7 12.75 1.25 10.176 1.25 7" clip-rule="evenodd"></path></svg><input type="text" class="omo1pTIbTFEFwqQdvQtW" placeholder="Search chats" aria-label="Search chats" autocomplete="off" value=""></div><button type="button" class="TMqvZ1I3qrRJwtwIiaVN Fax09GBRvgd5FX9cxN3C mDfTLfECeDUwedENpz0Z O7gLkV4OTP_SAakrV0Fz NxQ_XDftVJuKF78Ks2_x OhG9LLPvxEfkc58soEam" aria-label="Close search"><svg fill="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" color="currentColor"><path fill="currentColor" d="M13.817 3.067c.244-.244.244-.64 0-.884s-.64-.244-.884 0L8 7.116 3.067 2.183c-.244-.244-.64-.244-.884 0s-.244.64 0 .884L7.116 8l-4.933 4.933c-.244.244-.244.64 0 .884s.64.244.884 0L8 8.884l4.933 4.933c.244.244.64.244.884 0s.244-.64 0-.884L8.884 8z"></path></svg></button></div></div></div><div class="IxYb6cNkgnsJdvRIi3Jp" style="grid-template-rows: 1fr; transition: grid-template-rows 0.15s ease-in-out;"><div class="KxbzyEGA5S7vkw7BkEXg" style="overflow: visible; visibility: visible; transition: visibility linear;"><div style="opacity: 1; transform: none;"><div class="rcr_O7k2jOTEGhWxhrTT"><button type="button" class="A9yZ48tgQgnltOsFZ6tc M9iy2u_kFTjNGo858y0K UXp1CMnZdUW62aAAlr0W ySFqwX5ZzVDmFxDHRG7T mDfTLfECeDUwedENpz0Z O7gLkV4OTP_SAakrV0Fz NxQ_XDftVJuKF78Ks2_x"><div class="BrCVxHrN7GrXNThv3HTd"><span class="snWtnDcE85BTjifnEcaT VIXqFBysndB_dh_EDP2b"><span class="YdV8N3xMtuaHBPdM_MU_"><svg fill="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" color="currentColor"><path fill="currentColor" d="M8.072 1c.345 0 .625.28.625.625s-.28.625-.625.625H4.044c-1.51 0-2.737 1.217-2.75 2.727l-.05 6c-.012 1.528 1.223 2.773 2.75 2.773h8c1.51 0 2.738-1.217 2.75-2.727l.025-3.028c.003-.345.285-.623.63-.62s.623.285.62.63l-.025 3.028c-.018 2.196-1.803 3.967-4 3.967h-8c-2.221 0-4.018-1.811-4-4.033l.05-6C.064 2.77 1.849 1 4.045 1zm4.091-.294c.879-.878 2.303-.878 3.18 0 .879.878.879 2.302 0 3.18l-6.55 6.552c-.252.251-.552.449-.883.58l-2.124.844c-1.006.4-2.01-.581-1.634-1.596l.714-1.926c.131-.353.337-.673.603-.939zm2.297.884c-.39-.39-1.023-.39-1.413 0L6.353 8.285c-.14.138-.246.306-.314.49L5.324 10.7l2.125-.844c.172-.068.329-.171.46-.302l6.55-6.551c.39-.39.39-1.023 0-1.413"></path></svg></span></span>New Chat</div><span class="BFtANHIIbfySxMfPoFWe uHPaz1NVFLwooyN_82Xl jkLVaAOpvdNdRBZbMf5c CacXtJfGtE47SYE_l9Hn">CTRL + ⇧ + O</span></button></div></div></div></div><div class="OhyWz68RyKbv58FRL3wO EXM8OWqRTJnsT0ekxZVE"><div class="ulSl9CobMxCtVZDVpToT"></div><div class="KPDED011OcZ_cshWm1dR"><div class="IxYb6cNkgnsJdvRIi3Jp" style="grid-template-rows: 1fr; transition: grid-template-rows 0.15s ease-in-out;"><div class="KxbzyEGA5S7vkw7BkEXg" style="overflow: visible; visibility: visible; transition: visibility linear;"><div style="opacity: 1; transform: none;"><div class="FIffwiS5ljhm4JrrKIYC"><button type="button" class="A9yZ48tgQgnltOsFZ6tc UXp1CMnZdUW62aAAlr0W ySFqwX5ZzVDmFxDHRG7T mDfTLfECeDUwedENpz0Z O7gLkV4OTP_SAakrV0Fz NxQ_XDftVJuKF78Ks2_x"><div class="BrCVxHrN7GrXNThv3HTd"><span class="snWtnDcE85BTjifnEcaT"><span class="YdV8N3xMtuaHBPdM_MU_"><svg fill="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" color="currentColor"><path fill="currentColor" d="M5.625 0c.345 0 .625.28.625.625v14.75c0 .345-.28.625-.625.625S5 15.72 5 15.375V.625C5 .28 5.28 0 5.625 0m-4 3c.345 0 .625.28.625.625v8.75c0 .345-.28.625-.625.625S1 12.72 1 12.375v-8.75C1 3.28 1.28 3 1.625 3m12 0c.345 0 .625.28.625.625v8.75c0 .345-.28.625-.625.625S13 12.72 13 12.375v-8.75c0-.345.28-.625.625-.625m-4 2c.345 0 .625.28.625.625v4.75c0 .345-.28.625-.625.625S9 10.72 9 10.375v-4.75C9 5.28 9.28 5 9.625 5"></path></svg></span></span>New Voice Chat</div></button><button type="button" class="A9yZ48tgQgnltOsFZ6tc M9iy2u_kFTjNGo858y0K UXp1CMnZdUW62aAAlr0W ySFqwX5ZzVDmFxDHRG7T mDfTLfECeDUwedENpz0Z O7gLkV4OTP_SAakrV0Fz NxQ_XDftVJuKF78Ks2_x"><div class="BrCVxHrN7GrXNThv3HTd"><span class="snWtnDcE85BTjifnEcaT"><span class="YdV8N3xMtuaHBPdM_MU_"><svg fill="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" color="currentColor"><path fill="currentColor" d="M14.25 4.63c1.328.777 2.03 2.37 1.613 3.929l-1.294 4.83c-.5 1.866-2.42 2.974-4.287 2.474l-4.83-1.294c-.448-.12-.853-.323-1.203-.587-.466-.352-.139-.982.445-.982h.083c.16 0 .314.055.453.135q.251.146.546.227l4.83 1.294c1.2.321 2.434-.391 2.756-1.591l1.294-4.83c.241-.901-.1-1.821-.793-2.36q-.195-.15-.413-.25c-.256-.12-.45-.36-.45-.642 0-.411.395-.723.779-.575q.24.09.471.223M8.5 0C10.433 0 12 1.567 12 3.5v5c0 1.933-1.567 3.5-3.5 3.5h-5C1.567 12 0 10.433 0 8.5v-5C0 1.567 1.567 0 3.5 0zM5.438 6.888c-.58-.335-1.295-.335-1.875 0L1.25 8.223V8.5c0 1.243 1.007 2.25 2.25 2.25h5c.784 0 1.475-.402 1.877-1.01zM3.5 1.25c-1.243 0-2.25 1.007-2.25 2.25v3.28l1.688-.975c.966-.558 2.158-.558 3.125 0l4.687 2.707V3.5c0-1.243-1.007-2.25-2.25-2.25zM7.938 3C8.524 3 9 3.476 9 4.063c0 .586-.476 1.062-1.062 1.062s-1.063-.476-1.063-1.062S7.351 3 7.938 3"></path></svg></span></span>New Image</div><span class="BFtANHIIbfySxMfPoFWe uHPaz1NVFLwooyN_82Xl jkLVaAOpvdNdRBZbMf5c CacXtJfGtE47SYE_l9Hn">CTRL + ⇧ + I</span></button></div></div></div></div><div class="IzsDSkmyWl0Mdeuex4RZ jAx7GfvU5cJ9hSJLHdgv"></div></div><div class="ulSl9CobMxCtVZDVpToT"></div></div><div class="hltVDGcNJMAcENDxk90c" style="opacity: 1; transform: none;"><button type="button" class="lDZTHWrl98kH9HfvZ5C3 mDfTLfECeDUwedENpz0Z rpUl9U1eM_BmhYCtUbPZ BIuJMCQDOSHG138gB6D8" aria-label="Settings &amp; More" aria-haspopup="menu" aria-expanded="false"><span class="EbWXyxKQRTqHSnpb_813"><div class="FDrTYpX6euKcJdoTFjKm"><span class="snWtnDcE85BTjifnEcaT LsWdNn7Nru_xBUfqT6WQ"><span class="YdV8N3xMtuaHBPdM_MU_"><svg fill="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" color="currentColor"><path fill="currentColor" d="M4.547 7.442c-.243-.244-.244-.64 0-.884s.64-.244.885 0L7.73 8.856c.146.146.384.146.53 0l2.298-2.298.099-.08c.242-.16.571-.133.785.08.213.213.24.543.08.786l-.08.098-2.298 2.297c-.635.635-1.663.635-2.298 0z"></path><path fill="currentColor" d="M8 14.75c3.728 0 6.75-3.022 6.75-6.75S11.728 1.25 8 1.25 1.25 4.272 1.25 8 4.272 14.75 8 14.75M8 16c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8"></path></svg></span></span><span class="G59lxd0_3mLrS9nbdxMQ"><span class="uHPaz1NVFLwooyN_82Xl jkLVaAOpvdNdRBZbMf5c CacXtJfGtE47SYE_l9Hn">Settings &amp; More</span></span></div><div class="BuyOYW0EseftVRVTyb1R"><span class="fMhA9rn8lygCTvSwWjqM uHPaz1NVFLwooyN_82Xl jkLVaAOpvdNdRBZbMf5c CacXtJfGtE47SYE_l9Hn">Free</span><svg fill="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" color="currentColor"><path fill="currentColor" d="M8 0c.865 0 1.756.288 2.51 1.017.48.465 1.288.952 2.415 1.312.732.234 1.49.472 2.05.99.6.554.898 1.344.983 2.486.121 1.636.06 3.642-1.326 5.878-.85 1.371-2.11 2.442-3.327 3.168-1.2.714-2.452 1.148-3.32 1.148-.87 0-2.115-.435-3.306-1.15-1.211-.726-2.461-1.796-3.311-3.165h-.001C-.019 9.448-.079 7.44.042 5.804c.084-1.14.383-1.93.983-2.486.56-.518 1.318-.755 2.05-.989C4.2 1.97 5.008 1.482 5.49 1.017 6.243.288 7.135 0 8 0m0 1.25c-.574 0-1.143.184-1.64.665-.655.633-1.649 1.203-2.905 1.605-.798.254-1.263.422-1.581.716-.278.258-.514.688-.586 1.66-.111 1.5-.05 3.206 1.142 5.128.72 1.16 1.805 2.102 2.891 2.753 1.105.663 2.12.972 2.663.972.545 0 1.568-.31 2.68-.973 1.095-.651 2.187-1.592 2.906-2.752l.21-.357c.99-1.777 1.036-3.363.932-4.77-.072-.974-.308-1.403-.586-1.66-.318-.295-.783-.463-1.581-.717-1.258-.402-2.25-.972-2.905-1.605C9.143 1.434 8.573 1.25 8 1.25m2.748 4.27c.24-.247.636-.253.884-.012.247.24.252.636.011.884L7.55 10.597c-.238.243-.627.252-.875.02L4.377 8.463c-.252-.236-.264-.631-.029-.883.237-.252.632-.265.884-.03l1.849 1.733z"></path></svg></div></span></button><div class="n4vrMGwaSPo1WZT89efg"><span>by <a class="uHPaz1NVFLwooyN_82Xl jkLVaAOpvdNdRBZbMf5c CacXtJfGtE47SYE_l9Hn xr8FVJoGZ7cnOKie7LUZ" href="https://duckduckgo.com/about" target="_blank" rel="noreferrer">DuckDuckGo</a></span><span class="Qt0y5rqwFYEf0ONpxlX6 uHPaz1NVFLwooyN_82Xl jkLVaAOpvdNdRBZbMf5c CacXtJfGtE47SYE_l9Hn">|</span><a class="uHPaz1NVFLwooyN_82Xl jkLVaAOpvdNdRBZbMf5c CacXtJfGtE47SYE_l9Hn xr8FVJoGZ7cnOKie7LUZ" href="https://duck.ai/browser" target="_blank" rel="noreferrer">Get the App</a></div></div></div></section><section class="XFWmL2CnhbtDyKjgpizi M2Pw6rZOpBOxO5BhWKuG kVrhW4syiUcS0srQ3G37"><div class="XG9UtI7ITju218V2dE9u" style="padding-bottom: 0px;"><div class="JeVlVIOlAhwg7Lm3pFxA"><div class="LfNaU8ffA02oPyRzmNRn"></div><p class="TO62wsGE3XfvSj0uUFk0 uHPaz1NVFLwooyN_82Xl nly_XAJbdZcvZyB0mipt CacXtJfGtE47SYE_l9Hn">Drop your photos or PDF files</p></div></div><div data-testid="duckai-top-toolbar" class="X1uTGQEE11EcKdUQZnHq D7Zkkix80lY6KTkc9gQH"><div class="QBNJsqMqqx7v2oS2xtNb"></div></div><div class="j0h4rSdUkBvyClzF8GSd vkw8uHSvi3wI9I4pKEn3"><div aria-live="polite" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"></div><div class="nmLQcPOIo3MNL8oiV0cN jldLLrHsqL_s6iuaZrCH CD_qL8Jco0zgoXQFbMpA"></div><div class="O5Ra8A7Sorua0Mko8MYQ"></div></div></section></main></div></div>
+    <script src="/dist/duckai-dist/lib.91d392df195d4371dfcff8dd.js"></script>
+    <script src="/dist/locale/en_US.53fed3ced011225a037e5e6063705ccc.js"></script>
+    <script src="/dist/duckai-dist/entry.vendors.af6502b348e84f1dfd99.js"></script>
+    <script src="/dist/duckai-dist/entry.duckai.87327f5a205aed4d67bc.js"></script>
+
+<iframe id="jsa" sandbox="allow-scripts allow-same-origin" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;default-src 'none'; script-src 'unsafe-inline';&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;&lt;/body&gt;
+&lt;/html&gt;" style="position: absolute; left: -9999px; top: -9999px;"></iframe></body></html>

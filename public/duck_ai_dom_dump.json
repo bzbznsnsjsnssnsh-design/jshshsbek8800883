@@ -1,0 +1,206 @@
+{
+  "title": "Duck.ai by DuckDuckGo. Private AI chat. Free.",
+  "bodySnippet": "Duck.ai\nNew Chat\nCTRL + ⇧ + O\nNew Voice Chat\nNew Image\nCTRL + ⇧ + I\nSettings & More\nFree\nby DuckDuckGo\n|\nGet the App\nDuck.ai, by DuckDuckGo\nTools\nFast\n6 Luna\nAsk\n\nDuckDuckGo anonymizes your chats. By clicking 'Ask' you agree to our Privacy Policy and Terms of Service.\n\nHow Duck.ai Works\nChat Suggestions\nCreate & Edit Images",
+  "buttons": [
+    {
+      "index": 0,
+      "text": "",
+      "ariaLabel": "Hide sidebar, CTRL + ⇧ + S",
+      "type": "button",
+      "classes": "TMqvZ1I3qrRJwtwIiaVN Fax09GBRvgd5FX9cxN3C mDfTLfECeDUwedENpz0Z O7gLkV4OTP_SAakrV0Fz NxQ_XDftVJuKF78Ks2_x OhG9LLPvxEfkc58soEam",
+      "disabled": false,
+      "rect": {}
+    },
+    {
+      "index": 1,
+      "text": "",
+      "ariaLabel": "Close search",
+      "type": "button",
+      "classes": "TMqvZ1I3qrRJwtwIiaVN Fax09GBRvgd5FX9cxN3C mDfTLfECeDUwedENpz0Z O7gLkV4OTP_SAakrV0Fz NxQ_XDftVJuKF78Ks2_x OhG9LLPvxEfkc58soEam",
+      "disabled": false,
+      "rect": {}
+    },
+    {
+      "index": 2,
+      "text": "New Chat\nCTRL + ⇧ + O",
+      "ariaLabel": null,
+      "type": "button",
+      "classes": "A9yZ48tgQgnltOsFZ6tc M9iy2u_kFTjNGo858y0K UXp1CMnZdUW62aAAlr0W ySFqwX5ZzVDmFxDHRG7T mDfTLfECeDUwedENpz0Z O7gLkV4OTP_SAakrV0Fz NxQ_XDftVJuKF78Ks2_x",
+      "disabled": false,
+      "rect": {}
+    },
+    {
+      "index": 3,
+      "text": "New Voice Chat",
+      "ariaLabel": null,
+      "type": "button",
+      "classes": "A9yZ48tgQgnltOsFZ6tc UXp1CMnZdUW62aAAlr0W ySFqwX5ZzVDmFxDHRG7T mDfTLfECeDUwedENpz0Z O7gLkV4OTP_SAakrV0Fz NxQ_XDftVJuKF78Ks2_x",
+      "disabled": false,
+      "rect": {}
+    },
+    {
+      "index": 4,
+      "text": "New Image\nCTRL + ⇧ + I",
+      "ariaLabel": null,
+      "type": "button",
+      "classes": "A9yZ48tgQgnltOsFZ6tc M9iy2u_kFTjNGo858y0K UXp1CMnZdUW62aAAlr0W ySFqwX5ZzVDmFxDHRG7T mDfTLfECeDUwedENpz0Z O7gLkV4OTP_SAakrV0Fz NxQ_XDftVJuKF78Ks2_x",
+      "disabled": false,
+      "rect": {}
+    },
+    {
+      "index": 5,
+      "text": "Settings & More\nFree",
+      "ariaLabel": "Settings & More",
+      "type": "button",
+      "classes": "lDZTHWrl98kH9HfvZ5C3 mDfTLfECeDUwedENpz0Z rpUl9U1eM_BmhYCtUbPZ BIuJMCQDOSHG138gB6D8",
+      "disabled": false,
+      "rect": {}
+    },
+    {
+      "index": 6,
+      "text": "",
+      "ariaLabel": "Delete chat",
+      "type": "button",
+      "classes": "gjtRSrnNMnH3KUoOaHtO TMqvZ1I3qrRJwtwIiaVN mDfTLfECeDUwedENpz0Z rpUl9U1eM_BmhYCtUbPZ NnfE7Mf03sXXFF0IK1Y7 OhG9LLPvxEfkc58soEam",
+      "disabled": true,
+      "rect": {}
+    },
+    {
+      "index": 7,
+      "text": "",
+      "ariaLabel": "Dictate",
+      "type": "button",
+      "classes": "m7AHXpo3K02Z4ilcCVHu wX1zZC8convrUX4jD69N TMqvZ1I3qrRJwtwIiaVN mDfTLfECeDUwedENpz0Z rpUl9U1eM_BmhYCtUbPZ TKIZtIRPfmARlavLmuvJ OhG9LLPvxEfkc58soEam",
+      "disabled": false,
+      "rect": {}
+    },
+    {
+      "index": 8,
+      "text": "Cancel",
+      "ariaLabel": "Cancel dictation",
+      "type": "button",
+      "classes": "QgO5iw3t8uKDim7DnrYs IOVRtzFoDrumYuthRVmN mDfTLfECeDUwedENpz0Z x1VDIowcR5KQT1eJn1qj NnfE7Mf03sXXFF0IK1Y7 w89GVVE6Cr6qGW6xg7Id",
+      "disabled": false,
+      "rect": {}
+    },
+    {
+      "index": 9,
+      "text": "",
+      "ariaLabel": "Add images or PDFs",
+      "type": "button",
+      "classes": "PskLiaYNlcPUquZPq1Cs mDfTLfECeDUwedENpz0Z rpUl9U1eM_BmhYCtUbPZ TKIZtIRPfmARlavLmuvJ",
+      "disabled": false,
+      "rect": {}
+    },
+    {
+      "index": 10,
+      "text": "Tools",
+      "ariaLabel": null,
+      "type": "button",
+      "classes": "EC_tpWZ6_LUB7TWBsdsc HDcx9C7tbj3uxe7n2OHb mDfTLfECeDUwedENpz0Z rpUl9U1eM_BmhYCtUbPZ TKIZtIRPfmARlavLmuvJ",
+      "disabled": false,
+      "rect": {}
+    },
+    {
+      "index": 11,
+      "text": "Fast",
+      "ariaLabel": "Reasoning mode",
+      "type": "button",
+      "classes": "U8bvfPxFg6l2LRxxa2xZ mDfTLfECeDUwedENpz0Z rpUl9U1eM_BmhYCtUbPZ NxQ_XDftVJuKF78Ks2_x",
+      "disabled": false,
+      "rect": {}
+    },
+    {
+      "index": 12,
+      "text": "6 Luna",
+      "ariaLabel": null,
+      "type": "button",
+      "classes": "nLJaxP81m6DfzH_LGnMJ mDfTLfECeDUwedENpz0Z rpUl9U1eM_BmhYCtUbPZ tNG8fu2s9_3mOdaQMNoQ",
+      "disabled": false,
+      "rect": {}
+    },
+    {
+      "index": 13,
+      "text": "Ask",
+      "ariaLabel": "Ask",
+      "type": "submit",
+      "classes": "SbIxIv85kQQN5UFCtovv jHEvwgq4Tf_c8h9Sl_vG DgU6qku3touAsHVH5_Kv mDfTLfECeDUwedENpz0Z rpUl9U1eM_BmhYCtUbPZ JcgBGtfgpA79Y8SZvSdA OhG9LLPvxEfkc58soEam",
+      "disabled": true,
+      "rect": {}
+    },
+    {
+      "index": 14,
+      "text": "",
+      "ariaLabel": "Stop generating",
+      "type": "button",
+      "classes": "J9THqonAEmeoTPBbc6yl TMqvZ1I3qrRJwtwIiaVN mDfTLfECeDUwedENpz0Z rpUl9U1eM_BmhYCtUbPZ NnfE7Mf03sXXFF0IK1Y7 OhG9LLPvxEfkc58soEam",
+      "disabled": true,
+      "rect": {}
+    },
+    {
+      "index": 15,
+      "text": "New Image",
+      "ariaLabel": null,
+      "type": "button",
+      "classes": "nMnG7jVdWpUMPiUjZlOW mDfTLfECeDUwedENpz0Z rpUl9U1eM_BmhYCtUbPZ tNG8fu2s9_3mOdaQMNoQ",
+      "disabled": false,
+      "rect": {}
+    },
+    {
+      "index": 16,
+      "text": "Voice Chat",
+      "ariaLabel": null,
+      "type": "button",
+      "classes": "nMnG7jVdWpUMPiUjZlOW mDfTLfECeDUwedENpz0Z rpUl9U1eM_BmhYCtUbPZ tNG8fu2s9_3mOdaQMNoQ",
+      "disabled": false,
+      "rect": {}
+    },
+    {
+      "index": 17,
+      "text": "How Duck.ai Works",
+      "ariaLabel": "Open the How Duck.ai Works panel",
+      "type": "button",
+      "classes": "C5A0o4FJR4SN8CQBcX6l mDfTLfECeDUwedENpz0Z x1VDIowcR5KQT1eJn1qj tNG8fu2s9_3mOdaQMNoQ",
+      "disabled": false,
+      "rect": {}
+    },
+    {
+      "index": 18,
+      "text": "Chat Suggestions",
+      "ariaLabel": "Open chat suggestions",
+      "type": "button",
+      "classes": "C5A0o4FJR4SN8CQBcX6l mDfTLfECeDUwedENpz0Z x1VDIowcR5KQT1eJn1qj tNG8fu2s9_3mOdaQMNoQ",
+      "disabled": false,
+      "rect": {}
+    },
+    {
+      "index": 19,
+      "text": "Create & Edit Images",
+      "ariaLabel": "Open create and edit images suggestions",
+      "type": "button",
+      "classes": "C5A0o4FJR4SN8CQBcX6l mDfTLfECeDUwedENpz0Z x1VDIowcR5KQT1eJn1qj tNG8fu2s9_3mOdaQMNoQ",
+      "disabled": false,
+      "rect": {}
+    }
+  ],
+  "textareas": [
+    {
+      "index": 0,
+      "tagName": "INPUT",
+      "placeholder": "Search chats",
+      "ariaLabel": "Search chats",
+      "value": "",
+      "rect": {}
+    },
+    {
+      "index": 1,
+      "tagName": "TEXTAREA",
+      "placeholder": "Ask anything privately",
+      "ariaLabel": "Ask anything privately",
+      "value": "",
+      "rect": {}
+    }
+  ],
+  "dialogs": [],
+  "images": []
+}
